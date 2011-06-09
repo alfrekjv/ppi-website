@@ -68,7 +68,7 @@
 <script>!window.jQuery && document.write(unescape('%3Cscript src="scripts/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
 <script type="text/javascript" src="scripts/jquery.scrollto.min.js"></script>
 <script type="text/javascript" src="scripts/common.js"></script>
-<script type="text/javascript" charset="utf-8">
+<script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-20964741-1']);
   _gaq.push(['_trackPageview']);
