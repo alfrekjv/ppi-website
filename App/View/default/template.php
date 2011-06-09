@@ -1,4 +1,8 @@
-<?php if(!isset($isAjax) || $isAjax == false) { ?>
+<?php
+if(isset($isAjax) && $isAjax == false):
+	include_once($viewDir . $actionFile);
+else:
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
@@ -86,8 +90,6 @@
 
 </body>
 </html>
-
-
-<?php } else { ?>
-			<?php include_once($viewDir . $actionFile); ?>
-<?php } ?>
+<?php
+endif;
+?>
