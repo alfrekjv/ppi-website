@@ -10,4 +10,26 @@ jQuery(document).ready(function($) {
             $('#back-to-top').fadeOut();
         }
     });
+    
+    var current = 0;
+    var last = $('.news-item').length - 1;
+    $('.news-item').each(function(i){
+    	if(i !== 0) $(this).hide();
+    	$(this).attr('id', 'news' + i);
+    	
+    });
+    
+    setTimeout(cycleNews, 5000);
+    
+    function cycleNews()
+    {
+    	var next = current + 1;
+    	if(next == last) next = 0;
+    	$('#news' + current).fadeOut(function(){
+    		$('#news' + next).fadeIn(function(){
+    			current = next;
+    			setTimeout(cycleNews, 5000);
+    		});
+    	});
+    }
 });
