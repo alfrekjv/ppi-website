@@ -256,10 +256,23 @@ h3, p { text-align: left; }
 
 .header-container .header-middle {
     width: 980px; height: 70px; background: url(../images/bg-header-page.png) repeat;
+    text-align:right;
 }
-
+.header-container .header-middle .news-item {
+	font-size:12px;
+	margin:35px 30px 0 0;
+}
+.header-container .header-middle .news-item a {
+	text-decoration:none;
+}
 .header-container .header-middle img {
     top: 10px; left: 30px;
+}
+.header-container .header-middle .news-item a img {
+	position:relative;
+	margin-right:5px;
+	top:4px;
+	left:0px;
 }
 
 .header-container .header-right {

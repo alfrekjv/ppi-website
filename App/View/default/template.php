@@ -41,6 +41,15 @@ else:
         <div class="fl header-left"></div>
         <div class="fl rel header-middle">
             <a href="http://www.ppiframework.com" title="PPI Framework"><img class="abs" src="images/icons-logo.png" alt="PPI Logo"></a>
+        	<?php foreach(APP_Controller_Home::getNews() as $news): ?>
+               			<?php if(isset($news['url'])): ?>
+               				<div class="news-item">
+               					<a href="<?php echo $news['url'] ?>"><img src="/images/github.png"><?php echo $news['title']?></a>
+               				</div>
+               			<?php else: ?>
+                			<div class="news-item"><?php echo $news['title'] ?></div>
+                		<?php endif; ?>
+                	<?php endforeach; ?>
         </div>
         <div class="fl header-right"></div>
     </div>
@@ -53,17 +62,7 @@ else:
 
             <div class="header-separator">
                 <div class="fl green-2"></div>
-                <div class="fl green-3">
-                	<?php foreach(APP_Controller_Home::getNews() as $news): ?>
-               			<?php if(isset($news['url'])): ?>
-               				<div class="news-item">
-               					<a href="<?php echo $news['url'] ?>"><?php echo $news['title']?></a>
-               				</div>
-               			<?php else: ?>
-                			<div class="news-item"><?php echo $news['title'] ?></div>
-                		<?php endif; ?>
-                	<?php endforeach; ?>
-                </div>
+                <div class="fl green-3"></div>
                 <div class="fl green-4"></div>
             </div>
 
