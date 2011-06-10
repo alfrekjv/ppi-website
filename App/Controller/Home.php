@@ -8,13 +8,18 @@ class APP_Controller_Home extends APP_Controller_Application {
 	public static function getNews()
 	{
 		$news = array();
+		$news[] = array(
+			'source' => 'ppi',
+			'title'	 => 'Testing the news feature'
+		);
 		$feed = 'https://github.com/dragoonis/ppi-website/commits/master.atom';
 		$xml = simplexml_load_file($feed);
 		foreach($xml->entry as $commit){
 		$timestamp = strtotime($commit->updated);
 			$news[$timestamp] = array(
-				'url'	=> (string) $commit->link['href'],
-				'title'	=> (string) $commit->title,
+				'source' => 'github',
+				'url'	 => (string) $commit->link['href'],
+				'title'	 => (string) $commit->title
 			);
 		}
 		return $news;

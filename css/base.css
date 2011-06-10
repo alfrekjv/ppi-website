@@ -260,6 +260,7 @@ h3, p { text-align: left; }
 }
 .header-container .header-middle .news-item {
 	font-size:12px;
+	color:#607890;
 	margin:35px 30px 0 0;
 }
 .header-container .header-middle .news-item a {
@@ -268,7 +269,7 @@ h3, p { text-align: left; }
 .header-container .header-middle img {
     top: 10px; left: 30px;
 }
-.header-container .header-middle .news-item a img {
+.header-container .header-middle .news-item img {
 	position:relative;
 	margin-right:5px;
 	top:4px;

@@ -42,12 +42,13 @@ else:
         <div class="fl rel header-middle">
             <a href="http://www.ppiframework.com" title="PPI Framework"><img class="abs" src="images/icons-logo.png" alt="PPI Logo"></a>
         	<?php foreach(APP_Controller_Home::getNews() as $news): ?>
-               			<?php if(isset($news['url'])): ?>
+               			<?php if($news['source'] == 'github'): ?>
                				<div class="news-item">
                					<a href="<?php echo $news['url'] ?>"><img src="/images/github.png"><?php echo $news['title']?></a>
                				</div>
-               			<?php else: ?>
-                			<div class="news-item"><?php echo $news['title'] ?></div>
+               			<?php elseif($news['source'] == 'ppi'): ?>
+                			<div class="news-item"><img src="/images/ppi.png"><?php echo $news['title'] ?></div>
+                		<?php else: ?>
                 		<?php endif; ?>
                 	<?php endforeach; ?>
         </div>
