@@ -11,6 +11,8 @@ jQuery(document).ready(function($) {
         }
     });
     
+    $('#list_news').show();
+
     var current = 0;
     var last = $('.news-item').length - 1;
     $('.news-item').each(function(i){
