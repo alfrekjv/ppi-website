@@ -41,6 +41,7 @@ else:
         <div class="fl header-left"></div>
         <div class="fl rel header-middle">
             <a href="http://www.ppiframework.com" title="PPI Framework"><img class="abs" src="<?php echo $baseUrl; ?>images/icons-logo.png" alt="PPI Logo"></a>
+        	<div id="list_news" style="display:none;">
         	<?php
 	        if(isset($allNews)):
 				foreach($allNews as $news):
@@ -55,6 +56,7 @@ else:
 				endforeach;
 			endif;
 	        ?>
+		</div>
 		</div>
         <div class="fl header-right"></div>
     </div>
