@@ -10,7 +10,9 @@
                         <img src="images/icons-download.png" alt="download">
                         <div class="item-content">
                             <h3>download</h3>
-                            <p>Download the <a href="https://github.com/dragoonis/ppi-framework/zipball/master" title="Download the latest version">Latest</a> and greatest version of your chosen app. For older project versions take a look at our <a href="" title="Museum">Museum</a>.</p>
+                            <p>Download the <a href="https://github.com/dragoonis/ppi-framework/zipball/master" title="Download the latest version">Latest</a> and greatest version of your chosen app.
+<!--	                            For older project versions take a look at our <a href="" title="Museum">Museum</a>.-->
+                           </p>
                         </div>
                     </div>
                 </div>
