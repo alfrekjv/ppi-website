@@ -21,7 +21,7 @@
                         <a href="http://groups.google.com/group/ppi-framework/" title="google group"><img src="<?php echo $baseUrl; ?>images/icons-community.png" alt="community"></a>
                         <div class="item-content">
                             <h3><a href="http://groups.google.com/group/ppi-framework/" title="google group">community</a></h3>
-                            <p>There are a variety of mediums available to interact with, gain support from, or become part of; the PPI framework.  To get started, choose from one of the following: <a href="irc://irc.freenode.net/ppi">IRC</a>, <a href="">Forum</a>, <a href="http://groups.google.com/group/ppi-framework/topics">Mailing List</a>.</p>
+                            <p>There are a variety of mediums available to interact with, gain support from, or become part of; the PPI framework.  To get started, choose from one of the following: <a href="irc://irc.freenode.net/ppi">IRC</a>, <a href="http://ppiframework.com/forum/">Forum</a>, <a href="http://groups.google.com/group/ppi-framework/topics">Mailing List</a>.</p>
     		    </div>
                     </div>
                     <div class="documentation item">
