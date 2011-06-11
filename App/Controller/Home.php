@@ -7,6 +7,13 @@ class APP_Controller_Home extends APP_Controller_Application {
 	}
 
 	public function getNews() {
+
+		$cache = $this->getCache();
+		$cacheName = 'homepage-news';
+		if($cache->exists($cacheName)) {
+			return $cache->get($cacheName);
+		}
+
 		$news = array();
 		$news[] = array(
 			'source' => 'ppi',
@@ -39,6 +46,8 @@ class APP_Controller_Home extends APP_Controller_Application {
 			}
 		}
 		krsort($news);
+
+		$cache->set($cacheName, $news, 600);
 		return $news;
 	}
 }
