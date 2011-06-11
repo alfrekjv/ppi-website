@@ -10,19 +10,22 @@ jQuery(document).ready(function($) {
             $('#back-to-top').fadeOut();
         }
     });
-    
-    $('#list_news').show();
+
+	$('.all-news-container').fadeIn('fast', function() {
+		$(this).effect('shake', {times: 2, distance: 10}, 100);
+	});
+
 
     var current = 0;
     var last = $('.news-item').length - 1;
     $('.news-item').each(function(i){
     	if(i !== 0) $(this).hide();
     	$(this).attr('id', 'news' + i);
-    	
+
     });
-    
+
     setTimeout(cycleNews, 5000);
-    
+
     function cycleNews()
     {
     	var next = current + 1;

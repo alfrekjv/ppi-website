@@ -41,22 +41,23 @@ else:
         <div class="fl header-left"></div>
         <div class="fl rel header-middle">
             <a href="http://www.ppiframework.com" title="PPI Framework"><img class="abs" src="<?php echo $baseUrl; ?>images/icons-logo.png" alt="PPI Logo"></a>
-        	<div id="list_news" style="display:none;">
+        	<div class="all-news-container" style="display: none;">
         	<?php
 	        if(isset($allNews)):
 				foreach($allNews as $news):
-					if($news['source'] == 'github'): ?>
+					if($news['source'] == 'github'):
+			?>
 					<div class="news-item">
-						<a href="<?php echo $news['url'] ?>"><img src="<?php echo $baseUrl; ?>images/github.png"><?php echo $news['title']?></a>
+						<a href="<?php echo $news['url'] ?>"><img src="<?php echo $baseUrl; ?>images/github.png" alt="Github Logo"><?php echo $news['title']?></a>
 					</div>
 					<?php elseif($news['source'] == 'ppi'): ?>
-					<div class="news-item"><img src="<?php echo $baseUrl; ?>images/ppi.png"><?php echo $news['title'] ?></div>
+					<div class="news-item"><img src="<?php echo $baseUrl; ?>images/ppi.png" alt="PPI Logo"><?php echo $news['title'] ?></div>
 					<?php
 					endif;
 				endforeach;
 			endif;
 	        ?>
-		</div>
+			</div>
 		</div>
         <div class="fl header-right"></div>
     </div>
@@ -84,9 +85,11 @@ else:
 </div> <!-- #wrapper -->
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="scripts/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="scripts/jquery-1.6.1.js"%3E%3C/script%3E'))</script>
 <script type="text/javascript" src="scripts/jquery.scrollto.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.effects.core.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.effects.shake.min.js"></script>
 <script type="text/javascript" src="scripts/common.js"></script>
 <script type="text/javascript">
   var _gaq = _gaq || [];
