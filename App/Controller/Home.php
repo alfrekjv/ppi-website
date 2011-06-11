@@ -27,7 +27,7 @@ class APP_Controller_Home extends APP_Controller_Application {
 					if($year == 2011) {
 						$title = (string) $commit->title;
 						if(strlen($title) > 70) {
-							$title = substr($title, 0, 70) . '..';
+							$title = trim(substr($title, 0, 70)) . '..';
 						}
 						$news[$timestamp] = array(
 							'source' => 'github',
