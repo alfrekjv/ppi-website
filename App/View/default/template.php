@@ -40,18 +40,22 @@ else:
     <div class="header-container">
         <div class="fl header-left"></div>
         <div class="fl rel header-middle">
-            <a href="http://www.ppiframework.com" title="PPI Framework"><img class="abs" src="images/icons-logo.png" alt="PPI Logo"></a>
-        	<?php foreach(APP_Controller_Home::getNews() as $news): ?>
-               			<?php if($news['source'] == 'github'): ?>
-               				<div class="news-item">
-               					<a href="<?php echo $news['url'] ?>"><img src="/images/github.png"><?php echo $news['title']?></a>
-               				</div>
-               			<?php elseif($news['source'] == 'ppi'): ?>
-                			<div class="news-item"><img src="/images/ppi.png"><?php echo $news['title'] ?></div>
-                		<?php else: ?>
-                		<?php endif; ?>
-                	<?php endforeach; ?>
-        </div>
+            <a href="http://www.ppiframework.com" title="PPI Framework"><img class="abs" src="<?php echo $baseUrl; ?>images/icons-logo.png" alt="PPI Logo"></a>
+        	<?php
+	        if(isset($allNews)):
+				foreach($allNews as $news):
+					if($news['source'] == 'github'): ?>
+					<div class="news-item">
+						<a href="<?php echo $news['url'] ?>"><img src="<?php echo $baseUrl; ?>images/github.png"><?php echo $news['title']?></a>
+					</div>
+					<?php elseif($news['source'] == 'ppi'): ?>
+					<div class="news-item"><img src="<?php echo $baseUrl; ?>images/ppi.png"><?php echo $news['title'] ?></div>
+					<?php
+					endif;
+				endforeach;
+			endif;
+	        ?>
+		</div>
         <div class="fl header-right"></div>
     </div>
 </div>
@@ -68,7 +72,7 @@ else:
             </div>
 
             <div class="fl main-content">
-<?php include_once($viewDir . $actionFile); ?>
+			<?php include_once($viewDir . $actionFile); ?>
             </div> <!-- .main-content -->
         </div> <!-- .main-content-contrainer-inner -->
 

@@ -281,7 +281,7 @@ h3, p { text-align: left; }
 }
 
 .header-separator {
-    height: 20px; background: url(../images/bg-header-border-page.png)
+    height: 10px; background: url(../images/bg-header-border-page.png)
 }
 
 .header-separator .green-1 {
@@ -289,21 +289,21 @@ h3, p { text-align: left; }
 }
 
 .header-separator .green-2 {
-    width: 10px; height: 20px; background: url(../images/bg-header-border-shadow.png);
+    width: 10px; height: 10px; background: url(../images/bg-header-border-shadow.png);
 }
 
 .header-separator .green-3 {
-    height: 20px; width: 980px; background: url(../images/bg-header-border-page.png);
-    line-height:20px;
+    height: 10px; width: 980px; background: url(../images/bg-header-border-page.png);
+    line-height: 10px;
     color:#000;
 }
 
 .header-separator .green-4 {
-    width: 10px; height: 20px; background: url(../images/bg-header-border-shadow.png);
+    width: 10px; height: 10px; background: url(../images/bg-header-border-shadow.png);
 }
 
 section.main-content-container {
-    margin-top: -20px;
+    margin-top: -10px;
     height: 500px;
 }
 
