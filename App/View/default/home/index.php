@@ -20,7 +20,7 @@
                     <div class="community item">
                         <a href="http://groups.google.com/group/ppi-framework/" title="google group"><img src="<?php echo $baseUrl; ?>images/icons-community.png" alt="community"></a>
                         <div class="item-content">
-                            <h3><a href="http://groups.google.com/group/ppi-framework/" title="google group">community</a></h3>
+                            <h3><a href="http://groups.google.com/group/ppi-framework/" title="google group" target="">community</a></h3>
                             <p>There are a variety of mediums available to interact with, gain support from, or become part of; the PPI framework.  To get started, choose from one of the following: <a href="irc://irc.freenode.net/ppi">IRC</a>, <a href="http://ppiframework.com/forum/">Forum</a>, <a href="http://groups.google.com/group/ppi-framework/topics">Mailing List</a>.</p>
     		    </div>
                     </div>
@@ -43,8 +43,8 @@
                     <div class="github item">
                         <a href="http://github.com/dragoonis"><img src="<?php echo $baseUrl; ?>images/icons-github.png" alt="github"></a>
                         <div class="item-content">
-                            <h3><a href="http://github.com/dragoonis" title="github">github</a></h3>
-                            <p>Clone one of our projects, create a <a href="http://help.github.com/forking" title="fork">fork</a>, submit a <a href="http://help.github.com/pull-requests" title="pull request">pull request</a>, that's how we do it in github-land. Whether you're looking to just grab the latest version of the code, <a href="https://github.com/dragoonis/PPI-Framework/watchers" title="">follow the github project</a> or have a snoop about, you can find it all <a href="https://github.com/dragoonis" title="github">here</a>.</p>
+                            <h3><a href="http://github.com/dragoonis" target="_blank" title="github">github</a></h3>
+                            <p>Clone one of our projects, create a <a href="http://help.github.com/forking" target="_blank" title="fork">fork</a>, submit a <a href="http://help.github.com/pull-requests" target="_blank" title="pull request">pull request</a>, that's how we do it in github-land. Whether you're looking to just grab the latest version of the code, <a href="https://github.com/dragoonis/PPI-Framework/watchers" target="_blank" title="">follow the github project</a> or have a snoop about, you can find it all <a href="https://github.com/dragoonis" target="_blank" title="github">here</a>.</p>
                         </div>
                     </div>
                 </div>
