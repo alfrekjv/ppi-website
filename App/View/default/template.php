@@ -26,6 +26,7 @@ else:
 
     <!-- CSS : implied media="all" -->
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="scripts/vtip/vtip.css">
 
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <script src="scripts/modernizr-1.6.min.js"></script>
@@ -85,12 +86,13 @@ else:
 </div> <!-- #wrapper -->
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.js"></script>
 <script>!window.jQuery && document.write(unescape('%3Cscript src="scripts/jquery-1.6.1.js"%3E%3C/script%3E'))</script>
 <script type="text/javascript" src="scripts/jquery.scrollto.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.effects.core.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.effects.shake.min.js"></script>
-<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript" src="scripts/jquery.effects.shake.min.js"></script>
+<script type="text/javascript" src="scripts/vtip-min.js"></script>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-20964741-1']);
@@ -102,10 +104,10 @@ else:
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-  <!--[if lt IE 7 ]>
-    <script src="scripts/libs/dd_belatedpng.js"></script>
-    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg backgrounds </script>
-  <![endif]-->
+<!--[if lt IE 7 ]>
+<script src="scripts/libs/dd_belatedpng.js"></script>
+<script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg backgrounds </script>
+<![endif]-->
 
 </body>
 </html>
