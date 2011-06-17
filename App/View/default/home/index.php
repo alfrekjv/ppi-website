@@ -10,9 +10,15 @@
                         <img src="images/icons-download.png" alt="download">
                         <div class="item-content">
                             <h3>download</h3>
-                            <p>Download the <a href="https://github.com/dragoonis/ppi-framework/zipball/master" title="Download the latest version">Latest</a> and greatest version of your chosen app.
-<!--	                            For older project versions take a look at our <a href="" title="Museum">Museum</a>.-->
-                           </p>
+	                        <p>Download your favourite app first</p>
+	                        <ul class="downloads-list">
+		                        <li>&raquo; Framework (<a href="https://github.com/dragoonis/ppi-framework/tarball/master" title="">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-framework/zipball/master" title="zip">zip</a>)</li>
+		                        <li>&raquo; Skeleton App (<a href="https://github.com/dragoonis/ppi-skeleton-app/tarball/master" title="">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-skeleton-app/zipball/master" title="zip">zip</a>)</li>
+		                        <li>&raquo; Issue Tracker (<a href="https://github.com/dragoonis/ppi-issue-tracker/tarball/master" title="">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-issue-tracker/zipball/master" title="zip">zip</a>)</li>
+		                        <li>&raquo; Website (<a href="https://github.com/dragoonis/ppi-website/tarball/master" title="">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-website/zipball/master" title="zip">zip</a>)</li>
+	                        </ul>
+
+
                         </div>
                     </div>
                 </div>
