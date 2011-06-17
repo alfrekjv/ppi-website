@@ -432,6 +432,7 @@ section.main-content-container {
 .main-content .download ul.downloads-list li {
 	font-size: 0.8em;
 	text-align: left;
+	padding-bottom: 5px;
 }
 
 /*
