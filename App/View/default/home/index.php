@@ -3,7 +3,8 @@
                         <img src="images/icons-about.png" alt="about">
                         <div class="item-content">
                             <h3>about</h3>
-                            <p>The PPI Framework is a lightweight and simple web app framework for PHP5.2 and above. PPI introduces simplicity balanced with maintainability, scalability and extensibility. With a small learning curve and a rich set of learning material available PPI is a great way to sit back and make web dev fun and easy.</p>
+<!--                            <p>The PPI Framework is a lightweight and simple web app framework for PHP5.2 and above. PPI introduces simplicity balanced with maintainability, scalability and extensibility. With a small learning curve and a rich set of learning material available PPI is a great way to sit back and make web dev fun and easy.</p> -->
+				<p>PPI is an Open Source Framework that streamlines development; both individual and enterprise.  Providing you with the essentials you need, the things, you want, and the freedom to work your own way.  Leveraging PPI is fast, easy, and tuned for everything from Microblogging to E-Commerce and more.</p>
                         </div>
                     </div>
                     <div class="download item">
@@ -17,8 +18,6 @@
 		                        <li>&raquo; Issue Tracker (<a href="https://github.com/dragoonis/ppi-issue-tracker/tarball/master" title="PPI Issue Tracker; Date: 17th June 2011; Req: PPI Framework; Size: 2.9mb" class="vtip">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-issue-tracker/zipball/master" title="PPI Issue Tracker; Date: 17th June 2011; Req: PPI Framework; Size: 3.2mb" class="vtip">zip</a>)</li>
 		                        <li>&raquo; Website (<a href="https://github.com/dragoonis/ppi-website/tarball/master" title="PPI Website; Date: 17th June 2011; Req: PPI Framework; Size: 1.0mb" class="vtip">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-website/zipball/master" title="PPI Website; Date: 17th June 2011; Req: PPI Framework; Size: 1.6mb" class="vtip">zip</a>)</li>
 	                        </ul>
-
-
                         </div>
                     </div>
                 </div>
