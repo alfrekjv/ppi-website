@@ -30,19 +30,19 @@
     		    </div>
                     </div>
                     <div class="documentation item">
-                        <a href="http://www.ppiframework.com/docs" title=""><img src="<?php echo $baseUrl; ?>images/icons-documentation.png" alt="documentation"></a>
+                        <a href="<?php echo $baseUrl; ?>docs" title=""><img src="<?php echo $baseUrl; ?>images/icons-documentation.png" alt="documentation"></a>
                         <div class="item-content">
-                            <h3><a href="http://www.ppiframework.com/docs">documentation</a></h3>
+                            <h3><a href="<?php echo $baseUrl; ?>docs">documentation</a></h3>
                             <p>Tutorials are the best way to get started with PPI. It explains everything you need to know; How to wield its many features to develop web applications faster and more efficiently, even if you only know a little bit of PHP.</p>
                         </div>
                     </div>
                 </div>
                 <div class="item-container">
                     <div class="development item">
-                        <a href="http://www.ppiframework.com/support" title="Development"><img src="<?php echo $baseUrl; ?>images/icons-development.png" alt="development"></a>
+                        <a href="<?php echo $baseUrl; ?>support" title="Development"><img src="<?php echo $baseUrl; ?>images/icons-development.png" alt="development"></a>
                         <div class="item-content">
-                            <h3><a href="http://www.ppiframework.com/support" title="Development">development</a></h3>
-                            <p>Want to get involved in the project? We're looking for designers, front-end developers and back-end developers. We will always have something to suit your mood. You can pick up a ticket on our <a href="http://www.ppiframework.com/support" title="Issue Tracker">Issue Tracker</a> and get stuck in.</p>
+                            <h3><a href="<?php echo $baseUrl; ?>support" title="Development">development</a></h3>
+                            <p>Want to get involved in the project? We're looking for designers, front-end developers and back-end developers. We will always have something to suit your mood. You can pick up a ticket on our <a href="<?php echo $baseUrl; ?>support" title="Issue Tracker">Issue Tracker</a> and get stuck in.</p>
                         </div>
                     </div>
                     <div class="github item">

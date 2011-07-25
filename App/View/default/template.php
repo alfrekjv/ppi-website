@@ -9,80 +9,22 @@ else:
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <title>PPI Framework</title>
-    <meta name="description" content="PPI, MVC, PHP, Framework, PHP Framework, PPI Documentation, PPI Sessions, PPI Cache, PPI Input, PPI Controllers, PPI Views, PPI Models, Models, Views, Input, Cache, Controllers, Sessions, AJAX">
-    <meta name="keywords" content="PPI, MVC, PHP, Framework, PHP Framework, PPI Documentation, PPI Sessions, PPI Cache, PPI Input, PPI Controllers, PPI Views, PPI Models, Models, Views, Input, Cache, Controllers, Sessions, AJAX">
-    <meta name="author" content="Paul Dragoonis">
-    <meta name="google-site-verification" content="a1rxyoMv_U3udQdSavKyu88mnxocX0gIwJE9DBylyqo" />
-
-    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-    <!-- CSS : implied media="all" -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="scripts/vtip/vtip.css">
-
-    <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-    <script src="scripts/modernizr-1.6.min.js"></script>
-
-</head>
-
+<?php include($viewDir . 'elements/head.php'); ?>
 <body>
-
-
-
-<div id="header">
-    <div class="header-container">
-        <div class="fl header-left"></div>
-        <div class="fl rel header-middle">
-            <a href="http://www.ppiframework.com" title="PPI Framework"><img class="abs" src="<?php echo $baseUrl; ?>images/icons-logo.png" alt="PPI Logo"></a>
-        	<div class="all-news-container" style="display: none;">
-        	<?php
-	        if(isset($allNews)):
-				foreach($allNews as $news):
-					if($news['source'] == 'github'):
-			?>
-					<div class="news-item">
-						<a href="<?php echo $news['url'] ?>"><img src="<?php echo $baseUrl; ?>images/github.png" alt="Github Logo"><?php echo $news['title']?></a>
-					</div>
-					<?php elseif($news['source'] == 'ppi'): ?>
-					<div class="news-item"><img src="<?php echo $baseUrl; ?>images/ppi.png" alt="PPI Logo"><?php echo $news['title'] ?></div>
-					<?php
-					endif;
-				endforeach;
-			endif;
-	        ?>
-			</div>
-		</div>
-        <div class="fl header-right"></div>
-    </div>
-</div>
-<div class="clearfix"></div>
-<div class="header-separator"></div>
+<?php include($viewDir . 'elements/header.php'); ?>
 <div id="wrapper">
     <section class="main-content-container">
+	    <!-- .main-content-contrainer-inner -->
         <div class="main-content-container-inner">
-
-            <div class="header-separator">
-                <div class="fl green-2"></div>
-                <div class="fl green-3"></div>
-                <div class="fl green-4"></div>
-            </div>
-
+            <div class="header-separator"><div class="fl green-2"></div><div class="fl green-3"></div><div class="fl green-4"></div></div>
+	        <!-- .main-content -->
             <div class="fl main-content">
 			<?php include_once($viewDir . $actionFile); ?>
-            </div> <!-- .main-content -->
-        </div> <!-- .main-content-contrainer-inner -->
-
-
+            </div>
+	        <!-- /.main-content -->
+        </div>
+	    <!-- /.main-content-contrainer-inner -->
     </section>
-
 </div> <!-- #wrapper -->
 
 
