@@ -13,11 +13,10 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <!-- CSS : implied media="all" -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="scripts/vtip/vtip.css">
-
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-    <script src="scripts/modernizr-1.6.min.js"></script>
+    <script src="scripts/"></script>
+
+	<?php include_once($viewDir . 'framework/javascript.php'); ?>
+	<?php include_once($viewDir . 'framework/stylesheet.php'); ?>
 
 </head>

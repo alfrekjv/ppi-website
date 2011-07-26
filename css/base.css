@@ -330,7 +330,6 @@ section.main-content-container {
 
 .main-content {
     padding-top: 20px;
-    height: 100%;
     width: 1000px;
     background-color: #222324;
 }
@@ -433,6 +432,23 @@ section.main-content-container {
 	font-size: 0.8em;
 	text-align: left;
 	padding-bottom: 5px;
+}
+
+@font-face {
+	font-family: Arvo;
+	src: url('fonts/arvo-regular.ttf');
+}
+
+.content-box {
+    padding-top: 15px; padding-bottom: 15px;
+	padding-left: 20px; padding-right: 20px;
+
+    background-color: #292b2a;
+	border: 1px solid #18191b;
+	-moz-box-shadow: 2px 2px 3px #000;
+	-webkit-box-shadow: 2px 2px 3px #000;
+	box-shadow: 2px 2px 3px #000;
+	margin-bottom: 12px;
 }
 
 /*

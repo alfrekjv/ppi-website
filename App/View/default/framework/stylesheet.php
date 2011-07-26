@@ -1,3 +1,12 @@
-<?php foreach($stylesheetFiles as $css) { ?>
-<link type="text/css" href="<?php echo $baseUrl; ?>css/<?php echo $css; ?>" rel='stylesheet' />
-<?php } ?>
+<?php
+$coreCSSFiles = array();
+if(!isset($isAdminPanel)) {
+	$coreCSSFiles = array('reset', 'base', 'vtip/vtip.css');
+}
+if (!empty($coreCSSFiles)) {
+	$stylesheetFiles = array_unique(array_merge($coreCSSFiles, $core['files']['css']));
+	?>
+	<link type="text/css" href="<?php echo $baseUrl; ?>css/css.php?mod=<?php echo implode(',', $stylesheetFiles); ?>" rel='stylesheet' />
+	<?php
+}
+?>
