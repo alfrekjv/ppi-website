@@ -10,7 +10,7 @@
                     <div class="download item">
                         <img src="images/icons-download.png" alt="download">
                         <div class="item-content">
-                            <h3>download</h3>
+                            <h3><a href="<?php echo $baseUrl; ?>downloads">downloads</a></h3>
 	                        <p>Download your favourite app first</p>
 	                        <ul class="downloads-list">
 		                        <li>&raquo; Framework (<a href="https://github.com/dragoonis/ppi-framework/tarball/master" title="PPI Framework; Date: 17th June 2011; Req: PHP 5.2+; Size: 375kb" class="vtip">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-framework/zipball/master" title="PPI Framework; Date: 17th June 2011; Req: PHP 5.2+; Size: 482kb" class="vtip">zip</a>)</li>
