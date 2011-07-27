@@ -8,7 +8,7 @@
                         </div>
                     </div>
                     <div class="download item">
-                        <img src="images/icons-download.png" alt="download">
+                        <a href="<?= $baseUrl; ?>downloads" title="Downloads"><img src="images/icons-download.png" alt="download"></a>
                         <div class="item-content">
                             <h3><a href="<?php echo $baseUrl; ?>downloads">downloads</a></h3>
 	                        <p>The downloads section consists of all the PPI related projects that we have hosted on github. We have projects such as the framework, skeleton app and the issue tracker. We also host the repositories we use for this website and our documentation. Everything is open source!</p>
