@@ -4,20 +4,14 @@
                         <div class="item-content">
                             <h3>about</h3>
 <!--                            <p>The PPI Framework is a lightweight and simple web app framework for PHP5.2 and above. PPI introduces simplicity balanced with maintainability, scalability and extensibility. With a small learning curve and a rich set of learning material available PPI is a great way to sit back and make web dev fun and easy.</p> -->
-				<p>PPI is an Open Source Framework that streamlines development; both individual and enterprise.  Providing you with the essentials you need, the things, you want, and the freedom to work your own way.  Leveraging PPI is fast, easy, and tuned for everything from Microblogging to E-Commerce and more.</p>
+							<p>PPI is an Open Source Framework that streamlines development; both individual and enterprise.  Providing you with the essentials you need, the things, you want, and the freedom to work your own way.  Leveraging PPI is fast, easy, and tuned for everything from Microblogging to E-Commerce and more.</p>
                         </div>
                     </div>
                     <div class="download item">
                         <img src="images/icons-download.png" alt="download">
                         <div class="item-content">
                             <h3><a href="<?php echo $baseUrl; ?>downloads">downloads</a></h3>
-	                        <p>Download your favourite app first</p>
-	                        <ul class="downloads-list">
-		                        <li>&raquo; Framework (<a href="https://github.com/dragoonis/ppi-framework/tarball/master" title="PPI Framework; Date: 17th June 2011; Req: PHP 5.2+; Size: 375kb" class="vtip">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-framework/zipball/master" title="PPI Framework; Date: 17th June 2011; Req: PHP 5.2+; Size: 482kb" class="vtip">zip</a>)</li>
-		                        <li>&raquo; Skeleton App (<a href="https://github.com/dragoonis/ppi-skeleton-app/tarball/master" title="PPI Skeleton App; Date: 17th June 2011; Req: PPI Framework; Size: 1.1mb" class="vtip">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-skeleton-app/zipball/master" title="PPI Skeleton App; Date: 17th June 2011; Req: PPI Framework; Size: 1.7mb" class="vtip">zip</a>)</li>
-		                        <li>&raquo; Issue Tracker (<a href="https://github.com/dragoonis/ppi-issue-tracker/tarball/master" title="PPI Issue Tracker; Date: 17th June 2011; Req: PPI Framework; Size: 2.9mb" class="vtip">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-issue-tracker/zipball/master" title="PPI Issue Tracker; Date: 17th June 2011; Req: PPI Framework; Size: 3.2mb" class="vtip">zip</a>)</li>
-		                        <li>&raquo; Website (<a href="https://github.com/dragoonis/ppi-website/tarball/master" title="PPI Website; Date: 17th June 2011; Req: PPI Framework; Size: 1.0mb" class="vtip">tar.gz</a>) (<a href="https://github.com/dragoonis/ppi-website/zipball/master" title="PPI Website; Date: 17th June 2011; Req: PPI Framework; Size: 1.6mb" class="vtip">zip</a>)</li>
-	                        </ul>
+	                        <p>The downloads section consists of all the PPI related projects that we have hosted on github. We have projects such as the framework, skeleton app and the issue tracker. We also host the repositories we use for this website and our documentation. Everything is open source!</p>
                         </div>
                     </div>
                 </div>
@@ -27,7 +21,7 @@
                         <div class="item-content">
                             <h3><a href="http://groups.google.com/group/ppi-framework/" title="google group" target="">community</a></h3>
                             <p>There are a variety of mediums available to interact with, gain support from, or become part of; the PPI framework.  To get started, choose from one of the following: <a href="irc://irc.freenode.net/ppi">IRC</a>, <a href="http://ppiframework.com/forum/">Forum</a>, <a href="http://groups.google.com/group/ppi-framework/topics">Mailing List</a>.</p>
-    		    </div>
+						</div>
                     </div>
                     <div class="documentation item">
                         <a href="<?php echo $baseUrl; ?>docs" title=""><img src="<?php echo $baseUrl; ?>images/icons-documentation.png" alt="documentation"></a>

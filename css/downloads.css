@@ -8,8 +8,24 @@
 	margin-bottom: 12px;
 }
 
-.downloads-container .page-header .back-to-homepage {
+.downloads-container .page-header h1 {
+	text-shadow: 1px 1px 1px #2F0909;
+	color: #FFF;
+	font-size: 1.4em;
+}
 
+.downloads-container .page-header .back-to-homepage {
+	width: 160px;
+	color: #A2A2A2;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.downloads-container .page-header .back-to-homepage:hover {
+	color: #FFF;
 }
 
 .downloads-container .downloads-item-container {
@@ -60,7 +76,7 @@
 }
 
 .downloads-container .downloads-item .header .download-links .link a {
-	color: #78a554;
+	color: #616D2F;
 	text-decoration: none;
 	font-size: 0.8em;
 }
