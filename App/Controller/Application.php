@@ -63,13 +63,19 @@ abstract class APP_Controller_Application extends PPI_Controller {
 	}
 
 	/**
-	 * Override for the load method
+	 * Override for all rendering of views.
 	 *
-	 * @param string $p_sTemplate The template name
-	 * @param array $p_aOptions Optional options
+	 * @param sting $template
+	 * @param array $params
+	 * @param array $options
+	 * @return mixed
 	 */
-	function load($p_sTemplate, array $p_aOptions = array()) {
-		parent::load($p_sTemplate, $p_aOptions);
+	function render($template, array $params = array(), array $options = array()) {
+
+		if(!isset($params['helper']) && !$this->is('ajax')) {
+			$params['helper'] = new APP_Helper_View();
+		}
+		return parent::render($template, $params, $options);
 	}
 
 

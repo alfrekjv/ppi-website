@@ -16,8 +16,9 @@
 
 .downloads-container .page-header .back-to-homepage {
 	width: 160px;
-	color: #A2A2A2;
+	color: #FFF;
 	display: block;
+	font-family: "Arvo", "Verdana";
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 0.8em;

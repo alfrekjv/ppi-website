@@ -227,12 +227,13 @@ button {  width: auto; overflow: visible;}
  */
 
 h1, h2 {
+	color: #FFF;
 	font-family: "Arvo", "Verdana";
 	font-weight: normal;
 }
 
 body {
-    text-align: center;
+    text-align: left;
     background: url(../images/bg-body-bg.png) repeat;
 }
 
@@ -368,13 +369,13 @@ section.main-content-container {
     margin: 0 0 0 34px;
 }
 
-.main-content div img {
+.main-content div.item img {
     float: left;
     margin-bottom: 21px;
     margin-right: 20px;
 }
 
-.main-content div h3 {
+.main-content div.item h3 {
     margin-bottom: 15px;
     font-size: 17px;
     font-weight: bold;

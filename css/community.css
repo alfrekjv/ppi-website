@@ -1,0 +1,37 @@
+.community-page .feeds .content {
+	background-color: #FFF;
+	margin-left: 20px;
+	width: 645px;
+	padding: 12px;
+	border: 2px solid #7f8b4b;
+	color: #444444;
+	font-size: 0.75em;
+}
+.community-page .feeds img.twitter {
+	margin-left: 8px;
+	margin-right: 9px;
+}
+
+.community-page .feeds .feed {
+	margin-bottom: 12px;
+}
+.community-page .activity-stream h1 {
+	font-size: 1.5em;
+	margin-bottom: 12px;
+}
+
+.community-page .left-side {
+	float: left;
+	width: 160px;
+	margin-right: 12px;
+	padding-left: 12px;
+}
+
+.community-page .activity-stream {
+	width: 750px;
+	float: left;
+}
+
+.community-page {
+	margin-right: 12px;
+}
