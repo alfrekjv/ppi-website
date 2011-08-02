@@ -13,9 +13,6 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-    <script src="scripts/"></script>
-
 	<?php include_once($viewDir . 'framework/javascript.php'); ?>
 	<?php include_once($viewDir . 'framework/stylesheet.php'); ?>
 
