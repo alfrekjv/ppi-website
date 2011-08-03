@@ -41,8 +41,9 @@ class APP_Controller_Community extends APP_Controller_Application {
 					if($year == 2011) {
 						$title = (string) $commit->title;
 						if(strlen($title) > 70) {
-							$title = trim(substr($title, 0, 70)) . '..';
+							$title = trim(substr($title, 0, 70)). '..';
 						}
+                        $title = htmlentities($title);
 						$activity[$timestamp] = array(
 							'source' => 'github',
 							'url'	 => (string) $commit->link['href'],

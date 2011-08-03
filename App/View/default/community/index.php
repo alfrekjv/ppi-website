@@ -11,7 +11,9 @@
 		?>
 			<div class="feed">
 				<img class="fl <?= $item['source']; ?>" src="<?= $feedImage; ?>" alt="<?= $item['source']; ?>" />
-				<p class="fl content"><?= $item['title']; ?></p>
+				<p class="fl content">
+                    <?= $item['title']; ?>
+                </p>
 				<div class="clear"></div>
 			</div>
 		<?php
