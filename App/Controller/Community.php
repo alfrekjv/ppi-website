@@ -3,19 +3,22 @@ class APP_Controller_Community extends APP_Controller_Application {
 
 	function index() {
 
-		$config = PPI_Helper::getConfig();
 		$activity = array();
-		$githubFeeds = $config->community->githubFeeds->toArray();
-		if(!empty($githubFeeds)) {
-			$activity = $this->parseGithubFeeds($githubFeeds);
-		}
 
-		$twitterFeeds = $config->community->twitterFeeds->toArray();
-		if(!empty($twitterFeeds)) {
-			foreach($twitterFeeds as $twitterFeed) {
-				$activity = $this->parseTweets($twitterFeed) + $activity;
-			}
-		}
+        $filter = $this->get("filter", null);
+
+        switch($filter) {
+            case 'twitter':
+                $activity = $this->getTwits();
+                break;
+            case 'github':
+                $activity = $this->getGithub();
+                break;
+            case 'all':
+            default:
+               $activity = $this->getGithub() + $this->getTwits();
+               break;
+        }
 
 		krsort($activity);
 
@@ -23,6 +26,30 @@ class APP_Controller_Community extends APP_Controller_Application {
 		$this->render('community/index', compact('activity'));
 
 	}
+
+    function getTwits() {
+
+        $config = PPI_Helper::getConfig();
+        $twitterFeeds = $config->community->twitterFeeds->toArray();
+        if(!empty($twitterFeeds)) {
+            foreach($twitterFeeds as $twitterFeed) {
+                $activity = $this->parseTweets($twitterFeed);
+            }
+        }
+
+        return $activity;
+    }
+
+    function getGithub() {
+
+        $config = PPI_Helper::getConfig();
+        $githubFeeds = $config->community->githubFeeds->toArray();
+        if(!empty($githubFeeds)) {
+            $activity = $this->parseGithubFeeds($githubFeeds);
+        }
+
+        return $activity;
+    }
 
 	function parseGithubFeeds($feeds) {
 
@@ -91,6 +118,8 @@ class APP_Controller_Community extends APP_Controller_Application {
 				//Specifically for non-English tweets, converts UTF-8 into ISO-8859-1
 				$twit = iconv("UTF-8", "ISO-8859-1//TRANSLIT", $twit);
 
+                $status = (string) $tweet->link; // get the URL of the status..
+
 				//Get the date it was posted
 				$pubdate = strtotime($tweet->pubDate);
 				$propertime = gmdate('F jS Y, H:i', $pubdate);  //Customize this to your liking
@@ -98,7 +127,7 @@ class APP_Controller_Community extends APP_Controller_Application {
 				//Store tweet and time into the array
 				$tweet_item = array(
 					'title'  => $twit,
-					'url'    => '',
+					'url'    => $status,
 					'date'   => $propertime,
 					'source' => 'twitter'
 				);
@@ -109,7 +138,7 @@ class APP_Controller_Community extends APP_Controller_Application {
 			}
 		}
 
-		$cache->set($cacheName, $tweet_array, 60*60);
+		//$cache->set($cacheName, $tweet_array, 60*60);
 
 		// Return array
 		return $tweet_array;

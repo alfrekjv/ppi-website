@@ -52,6 +52,7 @@ else:
 <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg backgrounds </script>
 <![endif]-->
 
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </body>
 </html>
 <?php
