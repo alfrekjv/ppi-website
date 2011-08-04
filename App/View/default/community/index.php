@@ -24,12 +24,14 @@
                     </div>
                     <div class="content">
                         <div class="description"><?= $item['title']; ?></div>
+
                         <div class="actions">
                             <a href="<?= $item["url"];?>" target="_blank" class="readmore">Read More</a>
-                            <div class="social gplus-here">
-
-                            </div>
+	                        <!--
+                            <div class="social gplus-here"></div>
+                            -->
                         </div>
+
                     </div>
                 </div>
             <?php
@@ -48,23 +50,4 @@
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
-</script>
-
-<script type="text/javascript">
-
-	var timeoutID = setTimeout("loadGoogle()", 1000);
-	var i = 1;
-	function loadGoogle() {
-		if(++i === 5) {
-			clearTimeout(timeoutID);
-			return;
-		}
-		var html = $('.gp').html();
-		if(html.indexOf('___plusone') != -1) {
-			$('.gplus-here').html(html);
-			clearTimeout(timeoutID);
-			return;
-		}
-		timeoutID = setTimeout("loadGoogle()", 1000);
-	}
 </script>
