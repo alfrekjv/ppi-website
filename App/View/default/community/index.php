@@ -22,7 +22,7 @@
                     <div class="content">
                         <div class="description"><?= $item['title']; ?></div>
                         <div class="actions">
-                            <a href="<?= $item["url"];?>" class="readmore">Read More</a>
+                            <a href="<?= $item["url"];?>" target="_blank" class="readmore">Read More</a>
                             <div class="social">
                                 <g:plusone></g:plusone>
                             </div>

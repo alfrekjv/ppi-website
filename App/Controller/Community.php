@@ -138,7 +138,7 @@ class APP_Controller_Community extends APP_Controller_Application {
 			}
 		}
 
-		//$cache->set($cacheName, $tweet_array, 60*60);
+		$cache->set($cacheName, $tweet_array, 60*60);
 
 		// Return array
 		return $tweet_array;

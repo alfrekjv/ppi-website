@@ -28,6 +28,17 @@
 	margin-right: 9px;
 }
 
+.community-page .feeds .feed .content .actions .social {
+	padding-left: 12px;
+    border-left:1px solid #CCC;
+    overflow:hidden;
+    height:30px;
+    margin-top:4px;
+}
+.community-page .feeds .feed .content .actions {
+	width: 125px;
+	float: left;
+}
 .community-page .feeds .feed {
 	margin-bottom: 12px;
 }
@@ -52,55 +63,48 @@
 	margin-right: 12px;
 }
 
-.feeds{
+.feeds {
 	width:700px;
 	padding:15px;
-	background:#303030;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
-.feed{
-	width:600px;
+.feed {
+	width: 740px;
 	margin:0 auto;
 	margin-bottom:10px;
 	margin-top:10px;
 }
-.image{
+.image {
 	float:left;
 	width:50px;
 	height:50px;
 }
-.content{
+.content {
 	background:#FFF;
 	min-height:50px;
 	overflow:hidden;
 	border:2px solid #83a22d;
 }
-.description{
-	width:400px;
+.description {
+	width:551px;
 	float:left;
 	padding:5px;
 	min-height:50px;
     color: #444444;
+	font-size: 0.9em;
 }
-.actions .readmore{
-	color:#5a7017;
-	display:block;
+.actions .readmore {
+	color:#323f0c;
+	display: block;
+	height: 19px;
+	padding-top: 5px;
+	font-size: 0.8em;
 	overflow:hidden;
 	background:#b5db3a;
 	padding-left:15px;
 	text-decoration:none;
-	border-radius:0 0 0 5px;
 }
 
 .actions .readmore:hover {
     color: #323f0c;
 }
-
-.social {
-    border-left:1px solid #CCC;
-    overflow:hidden;
-    height:30px;
-    margin-top:4px;
-}
-
-.clear{ clear:both;}
