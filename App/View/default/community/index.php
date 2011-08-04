@@ -6,7 +6,7 @@
 		<img src="<?= $baseUrl; ?>images/community/community.jpg" alt="Community">
 	</div>
     <div class="content-box">
-
+		<h1>Activity Stream</h1>
         <div class="topcontent">
                 <div class="filter">Filter: <a href="<?= $baseUrl; ?>community/">All</a> - <a href="<?= $baseUrl; ?>community/index/filter/twitter">Twitter</a> - <a href="<?= $baseUrl; ?>community/index/filter/github">Github</a> </div>
                 <div class="back-to-homepage"><a href="<?= $baseUrl; ?>">Back to Homepage</a></div>
@@ -40,14 +40,5 @@
             </div>
         </div>
     </div>
+	<div class="clear"></div>
 </div>
-
-
-<!-- Place this tag after the last plusone tag -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>

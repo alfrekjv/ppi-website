@@ -1,17 +1,17 @@
 .topcontent {
-    font-size: 10pt;
-    padding: 10px;
-    margin: 0 0 20px 0;
+	font-size: 0.8em;
+
 }
 
 .topcontent .filter {
-    width: 580px;
     float: left;
 }
 
 .topcontent .back-to-homepage {
     width: 130px;
-    float:  left;
+    position: absolute;
+	top: 20px;
+	right: 10px;
 }
 
 .topcontent a {
@@ -42,7 +42,7 @@
 .community-page .feeds .feed {
 	margin-bottom: 12px;
 }
-.community-page .activity-stream h1 {
+.community-page h1 {
 	font-size: 1.5em;
 	margin-bottom: 12px;
 }
@@ -56,6 +56,7 @@
 
 .community-page .content-box {
     width: 750px;
+	position: relative;
     float: left;
 }
 
