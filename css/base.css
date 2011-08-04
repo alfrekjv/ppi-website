@@ -451,13 +451,19 @@ section.main-content-container {
 .gplusone-container {
 	position: absolute;
 	bottom: 0px;
-	right: 40px;
+	right: 100px;
 }
 
 .facebooklike-container {
 	position: absolute;
 	bottom: -5px;
 	right: -30px;
+}
+
+.twitterlike-contaner {
+	position: absolute;
+	bottom: 0;
+	right: 80px;
 }
 
 .grey-button {
