@@ -450,8 +450,14 @@ section.main-content-container {
 
 .gplusone-container {
 	position: absolute;
-	bottom: 10px;
-	right: 0;
+	bottom: 0px;
+	right: 40px;
+}
+
+.facebooklike-container {
+	position: absolute;
+	bottom: -5px;
+	right: -30px;
 }
 
 .grey-button {
