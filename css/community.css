@@ -64,19 +64,20 @@
 	margin-right: 12px;
 }
 
-.feeds {
-	width:700px;
-	padding:15px;
+.activity-stream .feeds  {
+	width: 800px;
+	padding: 15px 15px 15px 0;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
-.feed {
-	width: 740px;
-	margin:0 auto;
+
+.activity-stream .feeds .feed {
+	width: 758px;
 	margin-bottom:10px;
 	margin-top:10px;
 }
-.image {
+.activity-stream .feeds .feed .image {
 	float:left;
+	margin-right: 12px;
 	width:50px;
 	height:50px;
 }
