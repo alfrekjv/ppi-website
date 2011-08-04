@@ -23,6 +23,7 @@ class APP_Controller_Community extends APP_Controller_Application {
 		krsort($activity);
 
 		$this->addCSS('community');
+		$this->addJS('community');
 		$this->render('community/index', compact('activity'));
 
 	}

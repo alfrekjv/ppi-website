@@ -30,12 +30,7 @@ else:
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.js"></script>
 <script>!window.jQuery && document.write(unescape('%3Cscript src="scripts/jquery-1.6.1.js"%3E%3C/script%3E'))</script>
-<script type="text/javascript" src="scripts/jquery.scrollto.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.effects.core.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.effects.shake.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.effects.shake.min.js"></script>
-<script type="text/javascript" src="scripts/vtip-min.js"></script>
-<script type="text/javascript" src="scripts/common.js"></script>
+<!--<script type="text/javascript" src="--><?//= $baseUrl; ?><!--scripts/common.js"></script>-->
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-20964741-1']);
@@ -52,7 +47,7 @@ else:
 <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg backgrounds </script>
 <![endif]-->
 
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
 </body>
 </html>
 <?php

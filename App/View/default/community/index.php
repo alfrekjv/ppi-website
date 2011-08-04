@@ -1,3 +1,6 @@
+<div class="gp" style="display: none;">
+	<g:plusone callback="testCallback"></g:plusone>
+</div>
 <div class="community-page">
 	<div class="left-side">
 		<img src="<?= $baseUrl; ?>images/community/community.jpg" alt="Community">
@@ -23,8 +26,8 @@
                         <div class="description"><?= $item['title']; ?></div>
                         <div class="actions">
                             <a href="<?= $item["url"];?>" target="_blank" class="readmore">Read More</a>
-                            <div class="social">
-                                <g:plusone></g:plusone>
+                            <div class="social gplus-here">
+
                             </div>
                         </div>
                     </div>
@@ -36,3 +39,32 @@
         </div>
     </div>
 </div>
+
+
+<!-- Place this tag after the last plusone tag -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script type="text/javascript">
+
+	var timeoutID = setTimeout("loadGoogle()", 1000);
+	var i = 1;
+	function loadGoogle() {
+		if(++i === 5) {
+			clearTimeout(timeoutID);
+			return;
+		}
+		var html = $('.gp').html();
+		if(html.indexOf('___plusone') != -1) {
+			$('.gplus-here').html(html);
+			clearTimeout(timeoutID);
+			return;
+		}
+		timeoutID = setTimeout("loadGoogle()", 1000);
+	}
+</script>
