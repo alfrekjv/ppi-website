@@ -27,9 +27,6 @@
 
                         <div class="actions">
                             <a href="<?= $item["url"];?>" target="_blank" class="readmore">Read More</a>
-	                        <!--
-                            <div class="social gplus-here"></div>
-                            -->
                         </div>
 
                     </div>
