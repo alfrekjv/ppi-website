@@ -12,7 +12,7 @@
                 <div class="back-to-homepage"><a href="<?= $baseUrl; ?>">Back to Homepage</a></div>
         </div>
 
-        <div class="activity-stream">
+        <div class="activity-stream <?= $filtered ? 'filtered' : ''; ?>">
             <div class="feeds">
             <?php
             foreach($activity as $item):

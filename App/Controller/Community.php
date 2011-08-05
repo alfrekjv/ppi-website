@@ -5,15 +5,19 @@ class APP_Controller_Community extends APP_Controller_Application {
 
 		$activity = array();
 
-        $filter = $this->get("filter", null);
-
+        $filter = $this->get('filter');
+		$filtered = false;
         switch($filter) {
             case 'twitter':
+	            $filtered = true;
                 $activity = $this->getTwits();
                 break;
+
             case 'github':
+	            $filtered = true;
                 $activity = $this->getGithub();
                 break;
+
             case 'all':
             default:
                $activity = $this->getGithub() + $this->getTwits();
@@ -24,7 +28,7 @@ class APP_Controller_Community extends APP_Controller_Application {
 
 		$this->addCSS('community');
 		$this->addJS('community');
-		$this->render('community/index', compact('activity'));
+		$this->render('community/index', compact('activity', 'filtered'));
 
 	}
 
