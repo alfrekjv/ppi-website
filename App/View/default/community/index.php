@@ -3,7 +3,42 @@
 </div>
 <div class="community-page">
 	<div class="left-side">
-		<img src="<?= $baseUrl; ?>images/community/community.jpg" alt="Community">
+		<section class="titlebox">
+            <div class="image"><img src="<?= $baseUrl; ?>images/community/community.jpg" alt="Community"></div>
+            <div class="text">Community</div>
+        </section>
+
+        <section class='elements'>
+            <div class="singlebox">
+                <a href="#">Contributors</a>
+            </div>
+            <div class="singlebox">
+                <a href="#">Github</a>
+            </div>
+            <div class="singlebox">
+                <a href="#">Twitter Feed</a>
+            </div>
+            <div class="singlebox">
+                <a href="#">Artwork</a>
+            </div>
+
+            <div class="box">
+                <h1>PPI IRC Network</h1>
+                <p>
+                    <strong>Server:</strong> irc.freenode.org
+                    <strong>Channel:</strong> #ppi
+                    <a href="irc://irc.freenode.org/ppi"><img src="<?= $baseUrl;?>images/community/sb-btnconnect.png" /></a>
+                </p>
+            </div>
+
+            <div class="box">
+                <h1>PPI Newsletter</h1>
+                <div class="form">
+                    Email: <input id="email" name="email" type="text" />
+                    <p><a href="#" id="sb-subscribe"><img src="<?= $baseUrl;?>images/community/sb-btnsubscribe.png" /></a></p>
+                </div>
+            </div>
+        </section>
 	</div>
     <div class="content-box">
 		<h1>Activity Stream</h1>
