@@ -121,7 +121,8 @@ class APP_Controller_Community extends APP_Controller_Application {
 				$twit = preg_replace('/(^|\s)#(\w+)/', '\1<a href="http://search.twitter.com/search?q=%23\2">#\2</a>', $twit);
 
 				//Specifically for non-English tweets, converts UTF-8 into ISO-8859-1
-				$twit = iconv("UTF-8", "ISO-8859-1//TRANSLIT", $twit);
+				//$twit = iconv("UTF-8", "ISO-8859-1//TRANSLIT", $twit);
+                $twit = utf8_decode($twit);
 
                 $status = (string) $tweet->link; // get the URL of the status..
 
