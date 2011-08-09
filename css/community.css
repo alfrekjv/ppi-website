@@ -125,7 +125,6 @@
 .community-page .left-side .titlebox .text {
     width: 80px;
     float: left;
-
     padding: 20px 0 0 0;
     font-weight: bold;
     color: #fff;
@@ -138,7 +137,7 @@
     width: 199px;
     margin-bottom: 5px;
     color: #000;
-    padding:  7px 0 0 20px;
+    padding: 7px 0 0 20px;
     font-weight: bold;
     font-size: 10pt;
     text-decoration: none;
@@ -152,19 +151,32 @@
     font-size: 10pt;
 }
 
-.community-page .left-side .elements .box h1 {
-    font-size: 11pt;
+.community-page .left-side .elements .newsletter-box {
+	margin-top: 12px;
+}
+.community-page .left-side .elements .box .newsletter-button {
+	margin: 10px 0 0 43px;
+	display: block;
+}
+.community-page .left-side .elements .box .box-title {
+	font-size: 1.1em;
+	font-family: Arvo, Verdana;
     color: #000;
     font-weight: bold;
     padding: 8px 0 0 15px;
+	margin-bottom: 12px;
+}
+
+.community-page .left-side .elements .box .irc-button {
+	margin: 12px 0 0 30px;
+	display: block;
+}
+.community-page .left-side .elements .box .irc-details {
+	font-size: 0.9em;
 }
 
 .community-page .left-side .elements .box p {
     padding: 2px 0 0 15px;
-}
-
-.community-page .left-side .elements .box p img {
-    padding: 12px 0 0 35px;
 }
 
 .community-page .left-side .elements .box .form {

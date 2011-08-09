@@ -5,37 +5,29 @@
 	<div class="left-side">
 		<section class="titlebox">
             <div class="image"><img src="<?= $baseUrl; ?>images/community/community.jpg" alt="Community"></div>
-            <div class="text">Community</div>
+            <h2 class="text">Community</h2>
         </section>
 
-        <section class='elements'>
-            <div class="singlebox">
-                <a href="#">Contributors</a>
-            </div>
-            <div class="singlebox">
-                <a href="#">Github</a>
-            </div>
-            <div class="singlebox">
-                <a href="#">Twitter Feed</a>
-            </div>
-            <div class="singlebox">
-                <a href="#">Artwork</a>
-            </div>
+        <section class="elements">
+            <div class="singlebox"><a href="#">Contributors</a></div>
+            <div class="singlebox"><a href="http://www.github.com/dragoonis/" target="_blank">Github</a></div>
+            <div class="singlebox"><a href="http://www.twitter.com/#!/ppi_framework" target="_blank">Twitter Feed</a></div>
+            <div class="singlebox"><a href="#">Artwork</a></div>
 
             <div class="box">
-                <h1>PPI IRC Network</h1>
-                <p>
+                <p class="box-title">PPI IRC Network</p>
+                <p class="irc-details">
                     <strong>Server:</strong> irc.freenode.org
                     <strong>Channel:</strong> #ppi
-                    <a href="irc://irc.freenode.org/ppi"><img src="<?= $baseUrl;?>images/community/sb-btnconnect.png" /></a>
+                    <a class="irc-button" href="<?= $baseUrl; ?>live-chat" target="_blank"><img src="<?= $baseUrl;?>images/community/sb-btnconnect.png" /></a>
                 </p>
             </div>
 
-            <div class="box">
-                <h1>PPI Newsletter</h1>
+            <div class="box newsletter-box">
+                <p class="box-title">PPI Newsletter</p>
                 <div class="form">
-                    Email: <input id="email" name="email" type="text" />
-                    <p><a href="#" id="sb-subscribe"><img src="<?= $baseUrl;?>images/community/sb-btnsubscribe.png" /></a></p>
+                    <label for="newsletter-email">Email</label> <input id="newsletter-email" name="email" type="text" />
+                    <a href="#" class="newsletter-button"><img src="<?= $baseUrl;?>images/community/sb-btnsubscribe.png" /></a>
                 </div>
             </div>
         </section>
