@@ -32,7 +32,11 @@ class APP_Controller_Community extends APP_Controller_Application {
 
 	}
 
-    function getTwits() {
+	function livechat() {
+		$this->render('community/livechat');
+	}
+
+    protected function getTwits() {
 
         $config = PPI_Helper::getConfig();
         $twitterFeeds = $config->community->twitterFeeds->toArray();
@@ -45,7 +49,7 @@ class APP_Controller_Community extends APP_Controller_Application {
         return $activity;
     }
 
-    function getGithub() {
+    protected function getGithub() {
 
         $config = PPI_Helper::getConfig();
         $githubFeeds = $config->community->githubFeeds->toArray();
@@ -56,7 +60,7 @@ class APP_Controller_Community extends APP_Controller_Application {
         return $activity;
     }
 
-	function parseGithubFeeds($feeds) {
+	protected function parseGithubFeeds($feeds) {
 
 		$cacheName = 'ppi-website-github-feeds';
 		$cache = PPI_Helper::getCache();
@@ -92,7 +96,7 @@ class APP_Controller_Community extends APP_Controller_Application {
 		return $activity;
 	}
 
-	function parseTweets($username, $maxtweets = 5) {
+	protected function parseTweets($username, $maxtweets = 5) {
 
 		$cacheName = 'ppi-website-twitter-feeds';
 		$cache = PPI_Helper::getCache();

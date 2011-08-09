@@ -12,7 +12,7 @@
             <div class="singlebox"><a href="#">Contributors</a></div>
             <div class="singlebox"><a href="http://www.github.com/dragoonis/" target="_blank">Github</a></div>
             <div class="singlebox"><a href="http://www.twitter.com/#!/ppi_framework" target="_blank">Twitter Feed</a></div>
-            <div class="singlebox"><a href="#">Artwork</a></div>
+            <div class="singlebox"><a href="<?= $baseUrl; ?>live-chat" target="_blank">Live Chat</a></div>
 
             <div class="box">
                 <p class="box-title">PPI IRC Network</p>
