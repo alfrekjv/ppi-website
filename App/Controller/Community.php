@@ -36,6 +36,12 @@ class APP_Controller_Community extends APP_Controller_Application {
 		$this->render('community/livechat');
 	}
 
+    function contributors() {
+        $this->addCSS('contributors');
+		$this->addJS('contributors');
+        $this->render('community/contributors');
+    }
+
     protected function getTwits() {
 
         $config = PPI_Helper::getConfig();
