@@ -33,7 +33,7 @@
                 </div>
                 <div class="item-container">
                     <div class="development item">
-                        <a href="<?php echo $baseUrl; ?>support" title="Development"><img src="<?php echo $baseUrl; ?>images/icons-development.png" alt="development"></a>
+                        <a href="<?php echo $baseUrl; ?>community" title="Development"><img src="<?php echo $baseUrl; ?>images/icons-development.png" alt="development"></a>
                         <div class="item-content">
                             <h3><a href="<?php echo $baseUrl; ?>support" title="Development">development</a></h3>
                             <p>Want to get involved in the project? We're looking for designers, front-end developers and back-end developers. We will always have something to suit your mood. You can pick up a ticket on our <a href="<?php echo $baseUrl; ?>support" title="Issue Tracker">Issue Tracker</a> and get stuck in.</p>
