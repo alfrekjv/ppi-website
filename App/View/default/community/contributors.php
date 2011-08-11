@@ -2,7 +2,7 @@
 
     <div class="page-header">
 		<h1 class="fl">Contributors</h1>
-		<div class="fr"><a href="http://localhost/ppi-website/" title="Go bac to the homepage" class="back-to-homepage grey-button">Back to homepage</a></div>
+		<div class="fr"><a href="<?=$baseUrl;?>" title="Go back to the homepage" class="back-to-homepage grey-button">Back to homepage</a></div>
 		<div class="clear"></div>
 	</div>
 
