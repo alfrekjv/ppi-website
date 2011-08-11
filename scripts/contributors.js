@@ -5,9 +5,4 @@ jQuery(document).ready(function() {
 		return false;
 	});
 
-	$('.contributors-item .committer a').click( function() {
-		$(this).next().slideToggle();
-		return false;
-	});
-
 });
