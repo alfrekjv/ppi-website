@@ -12,4 +12,6 @@ jQuery(document).ready(function() {
 		return false;
 	});
 
+	$('.contributors-item .links a:first').trigger('click');
+
 });
