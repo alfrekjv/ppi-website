@@ -39,6 +39,7 @@
 	background-color: #FFF;
 	border: 1px solid #78a554;
 	margin-bottom: 20px;
+	min-height: 50px;
 }
 
 .contributors-container .contributors-item .desc {
@@ -47,8 +48,8 @@
 }
 
 .contributors-container .contributors-item .header {
-	padding: 12px 12px 0 12px;
-    height: 50px;
+	padding: 12px;
+    height: 30px;
 }
 
 .contributors-container .contributors-item .header .logo {
@@ -93,6 +94,30 @@
 	border-left: none;
 }
 
-.contributors-container .contributors-item .committers .committer p.details {
-    display: none;
+.contributors-container .contributors-item .links a {
+	color: #616D2F;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+.contributors-container .contributors-item .links {
+	float: right;
+	width: 150px;
+	height: 20px;
+	text-align: right;
+	margin-top: 7px;
+}
+.contributors-container .contributors-item .committer a {
+	color: #616D2F;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+.contributors-container .contributors-item .committer p {
+	display: none;
+	color: #000;
+	font-size: 0.75em;
+}
+.contributors-container .contributors-item .committers {
+	display: none;
+	margin-left: 40px;
+	margin-bottom: 12px;
 }
