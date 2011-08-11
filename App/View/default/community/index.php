@@ -36,7 +36,9 @@
 		<h1>Activity Stream</h1>
         <div class="topcontent">
                 <div class="filter">Filter: <a href="<?= $baseUrl; ?>community/" class="filter-all">All</a> - <a href="<?= $baseUrl; ?>community/index/filter/twitter" class="filter-twitter">Twitter</a> - <a href="<?= $baseUrl; ?>community/index/filter/github" class="filter-github">Github</a> </div>
-                <div class="back-to-homepage"><a href="<?= $baseUrl; ?>">Back to Homepage</a></div>
+                <div class="backtohomepage">
+                    <a href="<?=$baseUrl;?>" title="Go back to the homepage" class="back-to-homepage grey-button">Back to homepage</a>
+                </div>
         </div>
 
         <div class="activity-stream <?= $filtered ? 'filtered' : ''; ?>">
