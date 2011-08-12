@@ -98,7 +98,7 @@
                 </div>
                 <div class="committer">
                     <p class="name">Johnny Mast (mastjohnny@gmail.com)
-	                <p>Co-Founder of the pre-alpha version of PPI in 2007. Recently kicking things off with PHPUnit integration</p>
+	                <p>Co-Founder of the pre-alpha version of PPI in 2005. Recently kicking things off with PHPUnit integration</p>
                 </div>
             </div>
 		</div>
