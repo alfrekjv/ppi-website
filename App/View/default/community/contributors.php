@@ -73,7 +73,7 @@
 	                <p>Primarily known for his work on PPI_Request and PHPUnit testing</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Alexy Shien (confik@gmail.com) - <a href="http://twitter.com/#!/shein_alexey">Twitter</a> - <a target="_blank" href="http://github.com/conf">Github</a> - <a>Website</a></p>
+                    <p class="name">Alexey Shein (confik@gmail.com) - <a href="http://twitter.com/#!/shein_alexey">Twitter</a> - <a target="_blank" href="http://github.com/conf">Github</a> - <a>Website</a></p>
 	                <p>Important contributor to PPI_Form and PHPUnit testing</p>
                 </div>
 	            <div class="committer">
