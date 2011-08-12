@@ -148,7 +148,7 @@
 	                <p>Major contributions to most parts of the tracker. Development of the admin panel to manage issues.</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Eric Couturier Guillaume (eric@eric-cg.fr) - <a href="http://twitter.com/#!/eric2145">Twitter</a> - <a href="https://github.com/Eric-CG">Github</a> - <a href="http://www.sydec-group.com">Website</a></p>
+                    <p class="name">Eric Couturier-Guillaume (eric@eric-cg.fr) - <a href="http://twitter.com/#!/eric2145">Twitter</a> - <a href="https://github.com/Eric-CG">Github</a> - <a href="http://www.sydec-group.com">Website</a></p>
 	                <p>Project Maintenance. Integration with Github</p>
                 </div>
             </div>
@@ -202,7 +202,7 @@
 	                <p>Designer of the Community page</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Eric Couturier Guillaume (eric@eric-cg.fr) - <a href="http://twitter.com/#!/eric2145">Twitter</a> - <a href="https://github.com/Eric-CG">Github</a> - <a href="http://www.sydec-group.com">Website</a></p>
+                    <p class="name">Eric Couturier-Guillaume (eric@eric-cg.fr) - <a href="http://twitter.com/#!/eric2145">Twitter</a> - <a href="https://github.com/Eric-CG">Github</a> - <a href="http://www.sydec-group.com">Website</a></p>
 	                <p>General maintenance</p>
                 </div>
             </div>
