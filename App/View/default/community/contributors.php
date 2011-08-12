@@ -85,19 +85,19 @@
 	                <p>Major contributions to the PPI_DataSource_Mongo component</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Alfredo Juarez - <a href="http://twitter.com/alfrekjv">Twitter</a> - <a href="http://github.com/alfrekjv">Github</a></p>
+                    <p class="name">Alfredo Juarez (alfredojv@juvasoft.com) - <a href="http://twitter.com/alfrekjv">Twitter</a> - <a href="http://github.com/alfrekjv">Github</a> - <a href="http://juvasoft.com">Website</a></p>
 	                <p>Known for his work on PPI_Crud</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Robert Eisele - <a href="#">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
+                    <p class="name">Robert Eisele (robert@xarg.org) - <a href="http://twitter.com/#!/RobertEisele">Twitter</a> - <a href="https://github.com/infusion">Github</a> - <a href="http://www.xarg.org">Website</a></p>
 <!--	                <p>tbc</p>-->
                 </div>
                 <div class="committer">
-                    <p class="name">Daniel Egeberg (degeberg@php.net) - <a href="#">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
+                    <p class="name">Daniel Egeberg (degeberg@php.net)
 	                <p>Influential to the scalability of database resultsets</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Johnny Mast (mastjohnny@gmail.com) - <a href="#">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
+                    <p class="name">Johnny Mast (mastjohnny@gmail.com)
 	                <p>Co-Founder of the pre-alpha version of PPI in 2007. Recently kicking things off with PHPUnit integration</p>
                 </div>
             </div>
