@@ -227,6 +227,26 @@
                 </div>
             </div>
 		</div>
+		
+		<div class="contributors-item">
+			<div class="header">
+				<img class="fl logo" src="<?= $baseUrl; ?>images/icons-download.png">
+				<div class="fl">
+					<div class="project-title">Community</div>
+					<div class="project-shortdesc">Members involved in the PPI Community</div>
+				</div>
+				<div class="links">
+					<a href="#" title="Show Contributors">Show Members</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+            <div class="committers">
+                <div class="committer">
+                    <p class="name">Ashley Dragoonis (ashleydragoonis@gmail.com) - <a href="http://twitter.com/#!/AshleyDragoonis">Twitter</a> - <a href="https://github.com/AshleyDragoonis">Github</a>
+	                <p>Community Manager</p>
+                </div>
+            </div>
+		</div>
 
         <div class="contributors-item">
 			<div class="header">
