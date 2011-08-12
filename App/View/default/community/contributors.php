@@ -80,6 +80,10 @@
                     <p class="name">Yousif Masoud (yousif.masoud@gmail.com) - <a href="http://twitter.com/#!/ymasoud">Twitter</a> - <a href="https://github.com/YMas">Github</a></p>
 	                <p>Major contributions to the PPI_DataSource component</p>
                 </div>
+	            <div class="committer">
+                    <p class="name">Cesar Rodas (crodas@php.net) - <a target="_blank" title="Link" href="http://twitter.com/#!/crodas">Twitter</a> - <a target="_blank" title="Link" href="https://github.com/crodas">Github</a> - <a target="_blank" title="Link" href="http://cesarrodas.com">Website</a></p>
+	                <p>Major contributions to the PPI_DataSource_Mongo component</p>
+                </div>
                 <div class="committer">
                     <p class="name">Alfredo Juarez - <a href="http://twitter.com/alfrekjv">Twitter</a> - <a href="http://github.com/alfrekjv">Github</a></p>
 	                <p>Known for his work on PPI_Crud</p>
