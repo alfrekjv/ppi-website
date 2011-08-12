@@ -40,7 +40,7 @@
                     <p class="name">Cal Evans (cal@calevans.com) - <a href="http://twitter.com/#!/CalEvans">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
                 </div>
                 <div class="committer">
-                    <p class="name">Mark Schaschke (mark@fractalturtle.com) - <a href="http://twitter.com/#!/epitomus">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
+                    <p class="name">Mark Schaschke (mark@fractalturtle.com) - <a href="http://twitter.com/#!/epitomus">Twitter</a> - <a href="https://github.com/epitomus">Github</a> - <a href="http://groupspaces.com/">Website</a></p>
                 </div>
 				<div class="committer">
                     <p class="name">John Mertic (jmertic@php.net) - <a href="http://twitter.com/#!/jmertic">Twitter</a> - <a href="https://github.com/jmertic">Github</a> - <a href="http://jmertic.wordpress.com/">Website</a></p>
