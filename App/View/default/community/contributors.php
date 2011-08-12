@@ -21,33 +21,33 @@
 				<div class="clear"></div>
 			</div>
             <div class="committers">
+                <div class="committer">
+                    <p class="name">Cal Evans (cal@calevans.com) - <a target="_blank" href="http://twitter.com/#!/CalEvans">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
+                </div>
 				<div class="committer">
-					<p class="name">Ryan Mauger (ryan@rmauger.co.uk) - <a target="_blank" href="http://twitter.com/#!/bittarman">Twitter</a> - <a href="http://twitter.com/#!/bittarman">Github</a> - <a target="_blank" href="http://www.rmauger.co.uk/">Website</a></p>
-				</div>
+					<p class="name">Davey Shafik (davey@php.net) - <a target="_blank" href="http://twitter.com/#!/dshafik">Twitter</a> - <a target="_blank" href="https://github.com/dshafik">Github</a></p>
+				</div>	
 				<div class="committer">
 					<p class="name">David Rogers (david@orlandophp.org) - <a target="_blank" href="http://twitter.com/#!/al_the_x">Twitter</a> - <a href="https://github.com/al-the-x">Github</a> - <a target="_blank" href="http://ethos-development.com">Website</a></p>
 				</div>
+                <div class="committer">
+                    <p class="name">Guilherme Blanco (guilhermeblanco@php.net) - <a target="_blank" href="http://twitter.com/#!/guilhermeblanco">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
+                </div>				
+				<div class="committer">
+                    <p class="name">John Mertic (jmertic@php.net) - <a target="_blank" href="http://twitter.com/#!/jmertic">Twitter</a> - <a target="_blank" href="https://github.com/jmertic">Github</a> - <a target="_blank" href="http://jmertic.wordpress.com/">Website</a></p>
+				</div>				
 				<div class="committer">
 					<p class="name">Jordi Boggiano (seld@php.net) - <a target="_blank" href="http://twitter.com/#!/seldaek">Twitter</a> - <a href="https://github.com/seldaek">Github</a> - <a target="_blank" href="http://nelm.io/jordi">Website</a></p>
 				</div>
                 <div class="committer">
-                    <p class="name">Guilherme Blanco (guilhermeblanco@php.net) - <a target="_blank" href="http://twitter.com/#!/guilhermeblanco">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
-                </div>
-				<div class="committer">
-					<p class="name">Davey Shafik (davey@php.net) - <a target="_blank" href="http://twitter.com/#!/dshafik">Twitter</a> - <a target="_blank" href="https://github.com/dshafik">Github</a></p>
-				</div>
-                <div class="committer">
-                    <p class="name">Cal Evans (cal@calevans.com) - <a target="_blank" href="http://twitter.com/#!/CalEvans">Twitter</a> - <a href="#">Github</a> - <a href="#">Website</a></p>
-                </div>
+                    <p class="name">Juozas Kaziukėnas (juozas@juokaz.com) - <a target="_blank" href="http://twitter.com/#!/juokaz">Twitter</a> - <a target="_blank" href="#">Github</a> - <a target="_blank" href="#">Website</a></p>
+                </div>				
                 <div class="committer">
                     <p class="name">Mark Schaschke (mark@fractalturtle.com) - <a target="_blank" href="http://twitter.com/#!/epitomus">Twitter</a> - <a target="_blank" href="https://github.com/epitomus">Github</a> - <a href="http://groupspaces.com/">Website</a></p>
                 </div>
 				<div class="committer">
-                    <p class="name">John Mertic (jmertic@php.net) - <a target="_blank" href="http://twitter.com/#!/jmertic">Twitter</a> - <a target="_blank" href="https://github.com/jmertic">Github</a> - <a target="_blank" href="http://jmertic.wordpress.com/">Website</a></p>
+					<p class="name">Ryan Mauger (ryan@rmauger.co.uk) - <a target="_blank" href="http://twitter.com/#!/bittarman">Twitter</a> - <a href="http://twitter.com/#!/bittarman">Github</a> - <a target="_blank" href="http://www.rmauger.co.uk/">Website</a></p>
 				</div>
-                <div class="committer">
-                    <p class="name">Juozas Kaziukėnas (juozas@juokaz.com) - <a target="_blank" href="http://twitter.com/#!/juokaz">Twitter</a> - <a target="_blank" href="#">Github</a> - <a target="_blank" href="#">Website</a></p>
-                </div>
             </div>
 		</div>
 
