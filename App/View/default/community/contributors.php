@@ -93,11 +93,11 @@
 <!--	                <p>tbc</p>-->
                 </div>
                 <div class="committer">
-                    <p class="name">Daniel Egeberg (degeberg@php.net)
+                    <p class="name">Daniel Egeberg (degeberg@php.net)</p>
 	                <p>Influential to the scalability of database resultsets</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Johnny Mast (mastjohnny@gmail.com)
+                    <p class="name">Johnny Mast (mastjohnny@gmail.com)</p>
 	                <p>Co-Founder of the pre-alpha version of PPI in 2005. Recently kicking things off with PHPUnit integration</p>
                 </div>
             </div>
