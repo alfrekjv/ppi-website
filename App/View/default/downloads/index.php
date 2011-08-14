@@ -10,7 +10,7 @@
 		?>
 		<div class="downloads-item">
 			<div class="header">
-				<img class="fl logo" src="<?= $baseUrl; ?>images/icons-download.png">
+				<img class="fl logo" src="<?= $baseUrl; ?>images/icons-download.png" alt="Icon Download">
 				<div class="fl">
 					<div class="project-title"><?= $download['title']; ?></div>
 					<div class="project-shortdesc"><?= $download['shortdesc']; ?></div>
