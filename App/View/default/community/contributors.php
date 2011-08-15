@@ -89,7 +89,7 @@
 	                <p>Known for his work on PPI_Crud</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Robert Eisele (robert@xarg.org) - <a target="_blank" href="http://twitter.com/#!/RobertEisele" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/infusion" title="github">Github</a> - <a target="_blank" href="http://www.xarg.org" title="website">Website</a></p>
+                    <p class="name">Robert Eisele (crypt@php.net) - <a target="_blank" href="http://twitter.com/#!/RobertEisele" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/infusion" title="github">Github</a> - <a target="_blank" href="http://www.xarg.org" title="website">Website</a></p>
 <!--	                <p>tbc</p>-->
                 </div>
                 <div class="committer">
