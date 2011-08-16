@@ -144,7 +144,7 @@
 			</div>
             <div class="committers">
                  <div class="committer">
-                    <p class="name">Paul Dragoonis (dragoonis@php.net) - <a target="_blank" href="http://twitter.com/dr4goonis" title="twitter">Twitter</a> - <a target="_blank" href="http://github.com/dragoonis" title="github">Github</a> - <a target="_blank" href="http://www.ppiframework.com" title="website"></p>
+                    <p class="name">Paul Dragoonis (dragoonis@php.net) - <a target="_blank" href="http://twitter.com/dr4goonis" title="twitter">Twitter</a> - <a target="_blank" href="http://github.com/dragoonis" title="github">Github</a> - <a target="_blank" href="http://www.ppiframework.com" title="website">Website</a></p>
 	                <p>Project Leader</p>
                 </div>
                 <div class="committer">
