@@ -155,6 +155,10 @@
                     <p class="name">Eric Couturier-Guillaume (eric@eric-cg.fr) - <a target="_blank" href="http://twitter.com/#!/eric2145" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/Eric-CG" title="github">Github</a> - <a target="_blank" href="http://www.sydec-group.com" title="website">Website</a></p>
 	                <p>Project Maintenance. Integration with Github</p>
                 </div>
+	            <div class="committer">
+                    <p class="name">Alfredo Juarez (alfredojv@juvasoft.com) - <a target="_blank" href="http://twitter.com/alfrekjv" title="twitter">Twitter</a> - <a target="_blank" href="http://github.com/alfrekjv" title="github">Github</a> - <a target="_blank" href="http://juvasoft.com" title="website">Website</a></p>
+	                <p>UI designer and bug fixer</p>
+                </div>
             </div>
 		</div>
         <div class="contributors-item">
